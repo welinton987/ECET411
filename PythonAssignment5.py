@@ -66,3 +66,6 @@ while True:
 
 # Cleanup after exiting the loop (manually terminate the script to reach here)
 red_pwm.stop()
+green_pwm.stop()
+blue_pwm.stop()
+GPIO.cleanup()
